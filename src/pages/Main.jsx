@@ -1,10 +1,10 @@
 import React from "react";
 import "../assets/styles/Main.css";
 import brochure from "../components/brochure.pdf";
-import img1 from "../assets/images/fp1.jpeg";
-import img2 from "../assets/images/fp2.jpeg";
+import img1 from "../assets/images/fp1.webp";
+import img2 from "../assets/images/fp2.webp";
 // import Map from "../components/Map";
-import Location from '../assets/images/location.png'
+import Location from '../assets/images/location.webp'
 
 const Main = () => {
   const handleClick = () => {
@@ -138,7 +138,7 @@ const Main = () => {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src={require("../assets/images/1.jpeg")}
+                src={require("../assets/images/1.webp")}
                 height={600}
                 className="carousal-img d-block w-100"
                 alt="..."
@@ -151,7 +151,7 @@ const Main = () => {
             </div>
             <div className="carousel-item">
               <img
-                src={require("../assets/images/2.jpeg")}
+                src={require("../assets/images/2.webp")}
                 height={600}
                 className="carousal-img d-block w-100"
                 alt="..."
@@ -164,7 +164,7 @@ const Main = () => {
             </div>
             <div className="carousel-item">
               <img
-                src={require("../assets/images/3.jpeg")}
+                src={require("../assets/images/3.webp")}
                 height={600}
                 className="carousal-img d-block w-100"
                 alt="..."
@@ -177,7 +177,7 @@ const Main = () => {
             </div>
             <div className="carousel-item">
               <img
-                src={require("../assets/images/4.jpeg")}
+                src={require("../assets/images/4.webp")}
                 height={600}
                 className="carousal-img d-block w-100"
                 alt="..."
@@ -190,7 +190,7 @@ const Main = () => {
             </div>
             <div className="carousel-item">
               <img
-                src={require("../assets/images/5.jpeg")}
+                src={require("../assets/images/5.webp")}
                 height={600}
                 className="carousal-img d-block w-100"
                 alt="..."

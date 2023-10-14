@@ -17,7 +17,7 @@ const Nav = () => {
         <div className="container-fluid">
           <a className="navbar-brand ms-5" href="/">
             <img
-              src={require("../assets/images/logo.png")}
+              src={require("../assets/images/logo.webp")}
               className="logo-img"
               alt=""
             />

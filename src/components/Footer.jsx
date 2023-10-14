@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/styles/Footer.css";
-import Logo from "../assets/images/logo.png";
+import Logo from "../assets/images/logo.webp";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import { BiLogoFacebook } from "react-icons/bi";
