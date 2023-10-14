@@ -5,17 +5,22 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import { BiLogoFacebook } from "react-icons/bi";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import EmailLink from "./ExamLink";
+import EmailLink from "./EmailLink";
+import PhoneLink from "./PhoneLink";
 
 const Footer = () => {
+  const mailtoLink = `mailto:${'thinkroofinfra@gmail.com'}`;
   return (
     <>
       <div class="footer-last card text-center">
         <div class="card-body">
           <h1 class="card-title">Contact Us</h1><br />
           <p>
-            <BsFillTelephoneFill /> 9437107338, 8338096767, 9437028567,
-            8249624550
+            <BsFillTelephoneFill /> {" "}
+            <PhoneLink phoneNumber="9437107338"/>, {" "}
+            <PhoneLink phoneNumber="8338096767"/>, {" "}
+            <PhoneLink phoneNumber="9437028567"/>,  {" "}
+            <PhoneLink phoneNumber="8249624550"/>
           </p>
           <p>
             <AiOutlineMail className="mx-1" />
@@ -36,7 +41,7 @@ const Footer = () => {
               <div className="middle-footer-icons">
                 <a
                   className="foot-logo"
-                  href="https://www.facebook.com/profile.php?id=61552396980721"
+                  href={mailtoLink}
                   target="__blank"
                 >
                   <AiOutlineMail className="react-icon"/>
