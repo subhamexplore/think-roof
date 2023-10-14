@@ -275,6 +275,8 @@ const Main = () => {
             <br />
           </div>
         </div>
+        <br />
+        <br />
 
         <div>
           <h1 style={{ textAlign: "center" }}>Floor Plan and Area Statement</h1>
@@ -290,9 +292,18 @@ const Main = () => {
         </div>
         <br />
         <br />
+        <br />
+        <br />
+        <br />
 
         <div>
-          <h1 style={{ textAlign: "center" }}>Structural Details</h1>
+          <h1 style={{ textAlign: "center" }}>
+            {" "}
+            <span style={{ color: "rgba(21, 150, 150, 1)" }}>
+              Structural
+            </span>{" "}
+            <span style={{ color: "rgba(107, 21, 107, 1)" }}>Details</span>
+          </h1>
           <br />
           <table className="table" style={{ textAlign: "justify" }}>
             <tbody>
@@ -321,6 +332,8 @@ const Main = () => {
         </div>
         <br />
         <br />
+        <br />
+        <br />
 
         <h1 style={{ textAlign: "center" }}>Facilities</h1>
         <br />
@@ -338,6 +351,8 @@ const Main = () => {
           </div>
         </div>
       </div>
+      <br />
+      <br />
       <br />
       <br />
     </div>
