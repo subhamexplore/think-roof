@@ -12,7 +12,7 @@ const Footer = () => {
   const mailtoLink = `mailto:${'thinkroofinfra@gmail.com'}`;
   return (
     <>
-      <div class="footer-last card text-center">
+      <div class="footer-last card text-center" id="footer">
         <div class="card-body">
           <h1 class="card-title">Contact Us</h1><br />
           <p>

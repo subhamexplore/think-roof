@@ -51,6 +51,12 @@
     border-radius: 8px;
     padding: 5px;
 }
+.loc-img{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 @media(max-width: 1234px){
     .card-img-top{
         height: 400px;
@@ -79,6 +85,17 @@
         width: 400px;
     }
 }
+
+@media(max-width: 844px){
+    .loc-img{
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 300px;
+    }
+}
+
 @media(max-width: 816px){
     .card-img-top{
         height: 250px;
@@ -100,6 +117,15 @@
         height: 300px;
     }
 }
+@media(max-width: 844px){
+    .loc-img{
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 250px;
+    }
+}
 @media(max-width:640px){
     .table-head{
         width: 50px;
@@ -115,8 +141,26 @@
         width: 20px;
     }
 }
+@media(max-width: 538px){
+    .loc-img{
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 200px;
+    }
+}
 @media(max-width:450px){
     .carousal-img{
         height: 200px;
+    }
+}
+@media(max-width: 434px){
+    .loc-img{
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 150px;
     }
 }

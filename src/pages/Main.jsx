@@ -3,6 +3,8 @@ import "../assets/styles/Main.css";
 import brochure from "../components/brochure.pdf";
 import img1 from "../assets/images/fp1.jpeg";
 import img2 from "../assets/images/fp2.jpeg";
+// import Map from "../components/Map";
+import Location from '../assets/images/location.png'
 
 const Main = () => {
   const handleClick = () => {
@@ -355,6 +357,8 @@ const Main = () => {
       <br />
       <br />
       <br />
+      {/* <Map/> */}
+                <img className="loc-img" src={Location} height={400} alt="" /><br /><br /><br />
     </div>
   );
 };
