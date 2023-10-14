@@ -1,7 +1,16 @@
 import React from "react";
 import '../assets/styles/Navbar.css'
+import brochure from './brochure.pdf'
 
 const Nav = () => {
+    const handleClick = () => {
+        const link = document.createElement('a');
+        link.download = 'Brochure';
+    
+        link.href = brochure;
+    
+        link.click();
+      }; 
   return (
     <div className="navbar-full">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -43,7 +52,7 @@ const Nav = () => {
               </li>
               <li className="nav-item mx-3">
                 <a className="nav-link" href="/">
-                  <button className="nav-button">Download Brochure</button>
+                  <button className="nav-button" onClick={handleClick}>Download Brochure</button>
                 </a>
               </li>
             </ul>

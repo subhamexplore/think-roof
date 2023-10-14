@@ -1,47 +1,65 @@
 import React from "react";
 import "../assets/styles/Footer.css";
-import Logo from '../assets/images/logo.png';
-import {AiOutlineInstagram} from "react-icons/ai";
-import {AiOutlineMail} from "react-icons/ai";
-import {BiLogoFacebook} from "react-icons/bi"
+import Logo from "../assets/images/logo.png";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
+import { BiLogoFacebook } from "react-icons/bi";
+import { BsFillTelephoneFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="footer" id="footer">
-      <div className="top-footer">
-        <h1 className="want-foot">Want to Know about us ?</h1>
-      </div>
-      <div className="middle-footer">
-        <div className="middle-footer-text">
+    <>
+      <div class="footer-last card text-center">
+        <div class="card-body">
+          <h1 class="card-title">Contact Us</h1><br />
           <p>
-            Come and know more about Zairza and join our community to experience
-            such more amazing stuffs.
+            <BsFillTelephoneFill /> 9437107338, 8338096767, 9437028567,
+            8249624550
           </p>
-        </div>
-        <div className="middle-footer-icon">
-          <div className="middle-footer-icons"><BiLogoFacebook /></div>
-          <div className="middle-footer-icons"><AiOutlineMail /></div>
-          <div className="middle-footer-icons"><AiOutlineInstagram /></div>
+          <p>
+            <AiOutlineMail className="mx-1" /> thinkroofinfra@gmail.com
+          </p>
+          <div className="middle-footer">
+            <div className="middle-footer-text"></div>
+            <div className="middle-footer-icon">
+              <div className="middle-footer-icons">
+                <a
+                  className="foot-logo"
+                  href="https://www.facebook.com/profile.php?id=61552396980721"
+                  target="__blank"
+                >
+                  <BiLogoFacebook className="react-icon"/>
+                </a>
+              </div>
+              <div className="middle-footer-icons">
+                <a
+                  className="foot-logo"
+                  href="https://www.facebook.com/profile.php?id=61552396980721"
+                  target="__blank"
+                >
+                  <AiOutlineMail className="react-icon"/>
+                </a>
+              </div>
+              <div className="middle-footer-icons">
+                <a
+                  className="foot-logo"
+                  href="https://www.facebook.com/profile.php?id=61552396980721"
+                  target="__blank"
+                >
+                  <AiOutlineInstagram className="react-icon"/>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="bottom-footer-icon">
+            <i className="bottom-footer-icons">Presented by</i>
+            <div className="bottom-footer-icons">
+              <img height={55} className="logo-footerr" src={Logo} alt="" />
+            </div>
+          </div>
         </div>
       </div>
-      <div className="bottom-footer">
-       <div className="bottom-footer-text">
-       <p>
-          OUTR (CET Campus), Kalinga Nagar, Ghatikia, Bhubaneswar, Odisha. +91
-          7205883336
-        </p>
-       </div>
-       <div className="bottom-footer-icon">
-       <i className="bottom-footer-icons">Presented by</i>
-       <div className="bottom-footer-icons">
-          <img 
-          height={55}
-          src={Logo} 
-          alt="" />
-       </div>
-       </div>
-      </div>
-    </div>
+    </>
   );
 };
 

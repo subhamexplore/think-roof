@@ -1,51 +1,32 @@
-/* @font-face {
-  font-family: Gilroy-bold;
-  src: url(../../assets/font/Gilroy-Bold.ttf);
-} */
-.want-foot {
-  font-family: Gilroy-bold;
-}
-.footer {
-    background-color: rgb(3, 3, 81);
+.footer-last{
+  background-color: rgb(3, 3, 81);
+  padding: 20px 0;
   color: white;
-  padding: 5rem 3.5rem;
-}
-
-.top-footer {
-  font-size: 20px;
-  width: 350px;
-  margin-bottom: 30px;
-}
-
-.middle-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 30px;
-}
-.middle-footer-text {
-  width: 506px;
+  width: 100%;
+  border-radius: 0;
 }
 .middle-footer-icon {
   display: flex;
   align-items: center;
   gap: 1.5rem;
   cursor: pointer;
+  justify-content: center;
+  color: white;
 }
-
-.bottom-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.react-icon{
+  color: white;
 }
-.bottom-footer-text {
-  width: 406px;
-  font-size: small;
+.logo-footerr{
+  background-color: rgba(255, 255, 255, 0.873);
+  border-radius: 8px;
+  height: 60px;
 }
 .bottom-footer-icon {
   display: flex;
   align-items: center;
   gap: 1rem;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .middle-footer-icons {
@@ -53,6 +34,8 @@
   align-items: center;
   justify-content: center;
   font-size: 35px;
+  color: white;
+  text-decoration: none;
 }
 
 .middle-footer-icons:hover {

@@ -11,3 +11,112 @@
     text-align: center;
     border: none;
 }
+.brochure-button{
+    height: 50px;
+    width: 200px;
+    background-color:  rgba(3, 3, 81, 0.764);
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    transition: all 1s;
+    font-weight: 700;
+}
+.brochure-button:hover{
+    height: 70px;
+    width: 250px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+.table-detail {
+    width: 400px;
+}
+.card-img{
+    display: flex;
+    justify-content: center;
+}
+.card-ka-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img-top{
+    height: 450px;
+    width: 600px;
+}
+.facility{
+    background-color: rgba(3, 3, 81, 0.8);
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+@media(max-width: 1234px){
+    .card-img-top{
+        height: 400px;
+        width: 500px;
+    }
+}
+@media(max-width: 1000px){
+    .card-img-top{
+        height: 350px;
+        width: 450px;
+    }
+}
+@media(max-width:1100px){
+    .carousal-img{
+        height: 500px;
+    }
+}
+@media(max-width:930px){
+    .carousal-img{
+        height: 400px;
+    }
+}
+@media(max-width: 909px){
+    .card-img-top{
+        height: 300px;
+        width: 400px;
+    }
+}
+@media(max-width: 816px){
+    .card-img-top{
+        height: 250px;
+        width: 350px;
+    }
+}
+@media(max-width:770px){
+    .carousal-img{
+        height: 350px;
+    }
+}
+@media(max-width: 718px){
+    .card-img{
+        flex-direction: column;
+    }
+}
+@media(max-width:650px){
+    .carousal-img{
+        height: 300px;
+    }
+}
+@media(max-width:640px){
+    .table-head{
+        width: 50px;
+    }
+}
+@media(max-width:500px){
+    .carousal-img{
+        height: 250px;
+    }
+}
+@media(max-width:640px){
+    .table-head{
+        width: 20px;
+    }
+}
+@media(max-width:450px){
+    .carousal-img{
+        height: 200px;
+    }
+}
