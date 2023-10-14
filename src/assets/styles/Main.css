@@ -1,0 +1,13 @@
+.content-au{
+    text-align: center;
+}
+.content-para{
+    margin: auto;
+    width: 1300px;
+}
+.card{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: none;
+}
