@@ -5,6 +5,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import { BiLogoFacebook } from "react-icons/bi";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import EmailLink from "./ExamLink";
 
 const Footer = () => {
   return (
@@ -17,7 +18,8 @@ const Footer = () => {
             8249624550
           </p>
           <p>
-            <AiOutlineMail className="mx-1" /> thinkroofinfra@gmail.com
+            <AiOutlineMail className="mx-1" />
+              <EmailLink email=" thinkroofinfra@gmail.com"/>
           </p>
           <div className="middle-footer">
             <div className="middle-footer-text"></div>
