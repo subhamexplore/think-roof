@@ -1,14 +1,17 @@
 import React from "react";
-import "../assets/styles/Navbar.css";
+import '../assets/styles/Navbar.css'
 
-const Navbar = () => {
+const Nav = () => {
   return (
-<>
-<div className="navbar-full">
+    <div className="navbar-full">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand ms-5" href="/">
-            <img src={require('../assets/images/logo.png')} className="logo-img" alt="" />
+            <img
+              src={require("../assets/images/logo.png")}
+              className="logo-img"
+              alt=""
+            />
           </a>
           <button
             className="navbar-toggler"
@@ -48,8 +51,7 @@ const Navbar = () => {
         </div>
       </nav>
     </div>
-</>
   );
 };
 
-export default Navbar;
+export default Nav;
