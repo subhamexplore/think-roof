@@ -358,9 +358,10 @@ const Main = () => {
       <br />
       <h1 style={{ textAlign: "center" }}>Location</h1>
       <br />
+
       <iframe
         title="locationMap"
-        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1871.7530386125356!2d85.76187923849267!3d20.237835811929838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDE0JzE2LjIiTiA4NcKwNDUnNDcuNCJF!5e0!3m2!1sen!2sin!4v1697350744694!5m2!1sen!2sin"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3743.5059037290607!2d85.76059207477599!3d20.237843014474112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a95b29dd84a5%3A0xca07d233992c848c!2sThinkRoof%20EKAYAN!5e0!3m2!1sen!2sin!4v1697384268257!5m2!1sen!2sin"
         width="100%"
         height="450"
         style={{border:'0'}}
