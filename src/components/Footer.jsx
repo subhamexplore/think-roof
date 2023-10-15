@@ -12,9 +12,9 @@ const Footer = () => {
   const mailtoLink = `mailto:${'thinkroofinfra@gmail.com'}`;
   return (
     <>
-      <div class="footer-last card text-center" id="footer">
-        <div class="card-body">
-          <h1 class="card-title">Contact Us</h1><br />
+      <div className="footer-last card text-center" id="footer">
+        <div className="card-body">
+          <h1 className="card-title">Contact Us</h1><br />
           <p>
             <BsFillTelephoneFill /> {" "}
             <PhoneLink phoneNumber="9437107338"/>, {" "}

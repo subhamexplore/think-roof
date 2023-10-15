@@ -308,8 +308,8 @@ const Main = () => {
           <br />
           <table className="table" style={{ textAlign: "justify" }}>
             <tbody>
-              {data.map((e) => (
-                <tr>
+              {data.map((e, i) => (
+                <tr key={i}>
                   <th scope="row" className="py-1">
                     {e.Sno}
                   </th>
@@ -359,6 +359,7 @@ const Main = () => {
       <h1 style={{ textAlign: "center" }}>Location</h1>
       <br />
       <iframe
+        title="locationMap"
         src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1871.7530386125356!2d85.76187923849267!3d20.237835811929838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDE0JzE2LjIiTiA4NcKwNDUnNDcuNCJF!5e0!3m2!1sen!2sin!4v1697350744694!5m2!1sen!2sin"
         width="100%"
         height="450"
