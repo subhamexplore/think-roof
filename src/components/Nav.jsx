@@ -19,7 +19,7 @@ const Nav = () => {
             <img
               src={require("../assets/images/logo.webp")}
               className="logo-img"
-              alt=""
+              alt="logo"
             />
           </a>
           <button

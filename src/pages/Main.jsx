@@ -3,8 +3,7 @@ import "../assets/styles/Main.css";
 import brochure from "../components/brochure.pdf";
 import img1 from "../assets/images/fp1.webp";
 import img2 from "../assets/images/fp2.webp";
-// import Map from "../components/Map";
-import Location from '../assets/images/location.webp'
+// import Location from '../assets/images/location.webp'
 
 const Main = () => {
   const handleClick = () => {
@@ -357,8 +356,18 @@ const Main = () => {
       <br />
       <br />
       <br />
-      {/* <Map/> */}
-                <img className="loc-img" src={Location} height={400} alt="" /><br /><br /><br />
+      <h1 style={{ textAlign: "center" }}>Location</h1>
+      <br />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1871.7530386125356!2d85.76187923849267!3d20.237835811929838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDE0JzE2LjIiTiA4NcKwNDUnNDcuNCJF!5e0!3m2!1sen!2sin!4v1697350744694!5m2!1sen!2sin"
+        width="100%"
+        height="450"
+        style={{border:'0'}}
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      {/* <img className="loc-img" src={Location} height={400} alt="" /><br /><br /><br /> */}
     </div>
   );
 };
